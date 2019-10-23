@@ -4,97 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah Lilley | Resume</title>
-    <link rel="stylesheet" href="css/resume-style.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/resume-style.css">
 </head>
 <body>
     <!-- // Intro -->
-    <header>
-        <img src="images/Sarah Lilley-02.jpg" alt="Sarah Lilley">
-        <h1>Sarah Lilley</h1>
-        <h2>Graphic Designer: Flight Design Studio</h2>
-        <p>Hello! My name is Sarah Lilley. I am a graphic and web designer based in Raleigh, North Carolina. I specialize in helping small companies find their voice and place in the market through custom, research-driven branding. </p>
+    <header id="about">
+      <nav class="display">
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="content-wrap">
+        <img class="profile-img col-narrow" src="images/Sarah Lilley-02.jpg" alt="Sarah Lilley">
+        <div class="col-wide">
+          <h1>Sarah Lilley</h1>
+          <h2>Graphic Designer</h2>
+          <p>Hello! My name is Sarah Lilley. I am a graphic and web designer based in Raleigh, North Carolina. I specialize in helping small companies find their voice and place in the market through custom, research-driven branding.</p>
+        </div>
+      </div>
     </header>
-    
-    <main> 
+
+    <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
+          <div class="content-wrap">
             <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Freelance Graphic Designer</h3>
-            <p class="JobLocation">Sarah Doo Designs</p>
-            <p>August 2018 - present</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p class="Description">I design logos, identities, print materials, and advertisements for freelance clients. My most prominent work includes Amber Foster Smith Photography in Holly Springs, NC, Your Door and More in Holly Springs, NC and Grace Haven Properties, LLC in Edenton, NC.</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
+            <!-- Job 1 Details -->
+            <div class="col-narrow">
+              <h3>Freelance Graphic Designer</h3>
+              <p class="uppercase">Soar Design Studio</p>
+              <p class="dates">August 2018 - Present</p>
+            </div>
 
-            <!-- end of Job Details block. -->
-               <!-- Job Details: copy this whole block to add more jobs -->
-               <h3>Intern</h3>
-               <p class="JobLocation">Amber Foster Smith Photography</p>
-               <p>January 2019 - May 2019</p>
-               
-               <!-- Add as many paragraphs as you need. -->
-               <p class="Description">I rebranded Amber's company. I also deisgned a magazine for Amber's clients. I assisted in photographing weddings, attended photography events to help Amber gain clients, and assisted in office tasks.</p>
-               </ul>
-               <!-- end of Job Details block. -->
-                  <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Customer Service Manager</h3>
-            <p class="JobLocation">Petsmart</p>
-            <p>August 2017-January 2018</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p class="Description">Responsible for the happiness of customers in the store. Maintained health and well-being of all small pets in the store.</p>
-            
-            </ul>
-            <!-- end of Job Details block. -->
+            <div class="col-wide job-description">
+              <p>I design logos, identities, print materials, and advertisements for freelance clients. My most prominent work includes Amber Foster Smith Photography in Holly Springs, NC, Your Door and More in Holly Springs, NC and Grace Haven Properties, LLC in Edenton, NC.</p>
+            </div>
+
+            <!-- Job 2 Details -->
+            <div class="col-narrow">
+              <h3>Design Intern</h3>
+              <p class="uppercase">Amber Foster Smith Photography</p>
+              <p class="dates">January 2019-May2019</p>
+            </div>
+            <div class="col-wide job-description">
+              <p>I rebranded Amber's company. I also deisgned a magazine for Amber's clients. I assisted in photographing weddings, attended photography events to help Amber gain clients, and assisted in office tasks.</p>
+            </div>
+
+            <!-- Job 3 Details -->
+            <div class="col-narrow">
+              <h3>Customer Service Manager</h3>
+              <p class="uppercase">Petsmart</p>
+              <p class="dates">August 2017 - January 2018</p>
+            </div>
+
+            <div class="col-wide job-description">
+              <p>Responsible for the happiness of customers in the store. Maintained health and well-being of all small pets in the store.</p>
+            </div>
+        <!--Job 4 Details-->
+        <div class="col-narrow">
             <h3>Youth Minister</h3>
-            <p class="JobLocation">Holy Family Catholic Church, Elizabeth City, NC</p>
-            <p>July 2015-July 2017</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p class="Description">Designed websites, social media campaigns, and printed materials to advertise and fundraise for weekly meetings and mission trips. Created unique curriculum for each meeting. Lead meetings, counseled children ages 12-18. Lead mission trips to Edenton, NC and Oil City, PA. </p>
-
-        </section>
-
-            
+            <p class="uppercase">Holy Family Catholic Church</p>
+            <p class="dates">July 2014 - July2017</p>
+          </div>
+          <div class="col-wide job-description">
+            <p>Designed websites, social media campaigns, and printed materials to advertise and fundraise for weekly meetings and mission trips. Created unique curriculum for each meeting. Lead meetings, counseled children ages 12-18. Lead mission trips to Edenton, NC and Oil City, PA.</p>
+          </div>
         </section>
 
 
         <!-- // Education -->
-        <section class="education">
-            <h2>Education</h2>
+        <section id="education" class="education">
+          <div class="content-wrap">
+            <h2 class="educationheader">Education</h2>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>Wake Technical Community College, 2018-2020</h3>
+            <!-- School 1 details. -->
+            <h3 class="educationtitle">Wake Technical Community College, 2018-2020</h3>
             <p>A.A. - Advertising and Graphic Design</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Certificates in Web Design, Graphic Design, and Advertising. President of Grapahic Designer's Association Spring 2019.</p>
-            <!-- End of school details. -->
+            <p>Certificates in Web Design, Graphic Design, and Advertising. President of Graphic Designer's Association Spring 2019.</p>
 
-             <!-- // Education -->
-        <section>
-
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>East Carolina University, 2010-2014</h3>
-            <p>B.A. - Psychology </p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Focus on social and health psychology. Research assistant in a social psychology lab looking at intimate partner stalking.</p>
-            <!-- End of school details. -->
-
+            <!-- School 2 details. -->
+            <h3 class="educationtitle">East Carolina University, 2010-2014</h3>
+            <p>B.A. - Psychology</p>
+            <p>Minor in music. Focus on social and health psychology. Research assistant in a social psychology lab looking at intimate partner stalking</p>
+          </div>
         </section>
     </main>
-    
+
+
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
+      <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
+
+        <!-- Social media links. Add or remove any networks. -->
         <div>
             <a href="mailto:selilley@my.waketech.edu">selilley@my.waketech.edu</a>
             <a href="http://slilleydesigns.myprotfolio.com" target="_blank">slilleydesigns.myprotfolio.com</a>
@@ -103,7 +108,8 @@
             <a href="https://twitter.com/SLilleyDesigns" target="_blank">Twitter</a>
         </div>
 
-        <p>Copyright 2019 by Sarah Doo Designs</p>
+        <p class="copyright">Copyright 2019 by Sarah Lilley</p>
+      </div>
     </footer>
 </body>
 </html>
